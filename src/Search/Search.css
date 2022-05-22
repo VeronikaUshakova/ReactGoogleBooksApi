@@ -1,0 +1,11 @@
+.search {
+    margin: 1em;
+}
+
+.search__block {
+    display: flex;
+}
+
+.search__block div:first-child{
+    margin-right: 2em;
+}

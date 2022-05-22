@@ -1,0 +1,49 @@
+.book {
+  text-align: left;
+  padding: 1em;
+  border-bottom: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.book__text-main,
+.book__details {
+    width: 100%;
+}
+
+.book__details {
+  display: flex;
+}
+
+.book_text-additional {
+    flex: 2 1 0;
+}
+
+.book__block-image {
+    flex: 1 2 0;
+    margin: auto;
+}
+
+.book_text-additional,
+.book__block-image {
+    padding: 5px;
+}
+
+.book__image {
+    display: block;
+    margin: auto;
+}
+
+.book__date,
+.book__authors {
+    font-style: italic;
+    text-align: right;
+    margin: 0;
+}
+
+.book__button {
+    float: right;
+    margin: 1em 0;
+    width: 8em;
+}

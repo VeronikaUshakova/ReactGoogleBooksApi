@@ -1,0 +1,14 @@
+form.search__form {
+    display: flex;
+    height: 1.5em;
+    justify-content: center;
+}
+
+input.search__field {
+    margin-right: 2em;
+    flex: 1 1 0;
+}
+
+button.search__button{
+    width: 8em;
+}
